@@ -1,0 +1,39 @@
+nav {
+
+    background-color: white;
+    margin-bottom: 20px;
+    font-family: 'Play', sans-serif;
+    min-height: 100%;
+
+
+}
+
+nav ul {
+    list-style: none;
+    /*para sacar los puntitos que hace el li*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+    /*Aumenta el ancho de un elemento que esta dentro de un display: flex*/
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 6px;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a.activo {
+    background-color: rgba(183, 182, 182, 0.938);
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}

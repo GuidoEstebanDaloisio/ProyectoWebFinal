@@ -1,0 +1,52 @@
+@media (max-width: 1000px){.contacto{
+    display: block;
+    gap: 80px;
+    flex-basis: calc(50% - 10px);
+    background-color: #f0f0f0;
+    padding: 20px 55px;
+    text-align: center;
+}
+
+.datos{
+    padding: 40px 0 0 0;
+}
+}
+
+
+@media (max-width: 630px){
+
+    .rectanguloParaLogo {
+        position: absolute;
+        top: 50%;
+        left: calc(50% - 150px);
+        left: auto;
+        /* mitad del ancho del círculo */
+        width: 52%;
+        height: 75px;
+        /* la mitad de la altura del header */
+        background-color: white;
+    }
+
+    nav ul {
+        display:block;
+    }
+
+    .bannerTitulo{
+        line-height: 50px
+    }
+}
+
+@media (max-width: 530px){
+
+    .rectanguloParaLogo {
+        position: absolute;
+        top: 50%;
+        left: calc(50% - 150px);
+        left: auto;
+        /* mitad del ancho del círculo */
+        width: 62%;
+        height: 75px;
+        /* la mitad de la altura del header */
+        background-color: white;
+    }
+}

@@ -1,0 +1,76 @@
+#historia {
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+#historia .container {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+  #historia h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(21, 21, 21);
+  }
+  
+  #historia p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgb(68, 68, 68);
+  }
+  
+  #fundadores {
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #fundadores h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(21, 21, 21);
+  }
+  
+  .fundadores-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin-top: 30px;
+  }
+  
+  .fundador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fundador img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .fundador h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(21, 21, 21);
+  }
+  
+  .fundador p {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+  }
